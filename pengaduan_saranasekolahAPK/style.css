@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3e8ff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container tengah */
+.container {
+    width: 350px;
+    margin: 100px auto;
+    background: #7e22ce;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Judul */
+h2 {
+    text-align: center;
+}
+
+/* Input */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Tombol */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #a855f7;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #9333ea;
+}
+
+/* Link */
+a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #e9d5ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* TABEL (buat data_pengaduan) */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+th {
+    background: #7e22ce;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #f3e8ff;
+}
+
+/* Link aksi */
+td a {
+    margin: 0 5px;
+    color: #7e22ce;
+    font-weight: bold;
+}
+
+/* Dashboard link jadi tombol */
+.menu {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.menu a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    background: #7e22ce;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.menu a:hover {
+    background: #9333ea;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Tombol logout beda warna */
+.logout {
+    background: #dc2626 !important;
+}
+
+.logout:hover {
+    background: #b91c1c !important;
+}
+
+/* Form pengaduan */
+.form-container {
+    width: 400px;
+    margin: 50px auto;
+    background: #7e22ce;
+    padding: 25px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.form-container h2 {
+    text-align: center;
+}
+
+.form-container label {
+    display: block;
+    margin-top: 10px;
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-container textarea {
+    resize: none;
+    height: 80px;
+}
+
+/* tombol kirim */
+.form-container button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background: #a855f7;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background: #9333ea;
+}
+
+/* tombol kembali */
+.back {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+    background: #6b21a8;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.back:hover {
+    background: #581c87;
+}
